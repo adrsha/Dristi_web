@@ -93,11 +93,27 @@
     <div class="info d-flex align-items-center">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-6 text-center">
+          <div class="col-lg-6 text-center" id="header">
             <h2 data-aos="fade-down">Welcome to <span>Dristi 3.0</span></h2>
-            <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="countdown d-flex justify-content-center" data-count="2024/01/5">
+              <div>
+                <h3>%d</h3>
+                <h4>Days</h4>
+              </div>
+              <div>
+                <h3>%h</h3>
+                <h4>Hours</h4>
+              </div>
+              <div>
+                <h3>%m</h3>
+                <h4>Minutes</h4>
+              </div>
+              <div>
+                <h3>%s</h3>
+                <h4>Seconds</h4>
+              </div>
+            </div>
+            </p>
             <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get Started</a>
           </div>
         </div>
@@ -1132,6 +1148,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/countdown.js"></script>
 
 </body>
 
